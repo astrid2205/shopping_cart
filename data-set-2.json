@@ -1,6 +1,12 @@
 [
-  { "code": "A", "quantity": 3 },
-  { "code": "B", "quantity": 4 },
-  { "code": "C", "quantity": 2 },
-  { "code": "D", "quantity": 3 }
+  { "code": "A" },
+  { "quantity": 3 },
+  { "code": "C", "quantity": "Not integer" },
+  ["Not a dictionary"],
+  { "code": "A", "quantity": 5 },
+  { "code": "B", "quantity": 3 },
+  { "code": "D", "quantity": 8 },
+  { "code": "B", "quantity": 2 },
+  { "code": "A", "quantity": 2 },
+  { "code": "C", "quantity": 5 }
 ]
